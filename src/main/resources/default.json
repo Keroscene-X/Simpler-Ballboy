@@ -1,0 +1,26 @@
+{
+  "_comment": "This is a sample JSON file. Anything starting with an underscore (like this _comment) should be ignored. Please always use comments to explain your JSON clearly to your marker",
+  "ballboySize": "small",
+  "_ballboySizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+  "ballboy_POS": {
+    "x": 150.0,
+    "y": 400.0
+  },
+  "ballboyImage": "/ballboy.png",
+  "_ballboyPosComment": "ballboy start at the x and y position indicated. This must be a positive double.",
+  "cloudVelocity": 3.2,
+  "cloud_POS": [{"x": 50.0, "y": 250.0},{"x": 100.0, "y": 350.0},{"x": 200.0,"y": 300.0}],
+  "cloud_pic": "/cloud_1.png",
+  "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature but we leave it here as a sample only for students who are interested in this feature.",
+  "steps_POS": [{"x":  100.0, "y": 390.0,"width": 50.0},{"x":  200.0, "y": 350.0,"width": 100.0},{"x":  400.0, "y": 300.0,"width": 75.0},{"x":  600.0, "y": 275.0,"width": 150.0}],
+  "steps_pic": "/step.png",
+  "floor_pic": "/foot_tile.png",
+  "floorHeight": 500.0,
+  "levelHeight": 900.0,
+  "levelWidth": 1080.0,
+  "tree_POS": {"x": 30.0, "y": 30.0},
+  "tree_pic": "/tree.png",
+  "enemy": [{"x": 400.0,"y": 470.0,"mode": "leftright","image": "/imposter.png"},{"x": 0.0,"y": 0.0,"mode": "flyto","image": "/imposter1.png"},{"x": 600.0,"y": 245.0, "mode": "runaway","image": "/imposter2.png"}],
+  "target_POS": {"x": 700.0, "y": 225.0},
+  "target_pic": "/ch_stand4.png"
+}
